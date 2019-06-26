@@ -11,15 +11,13 @@ class Navbar extends Component {
                     <i className="material-icons">menu</i>
                 </a>
                 <ul className="right hide-on-med-and-down">
-                    <li><a href="">Jokes</a></li>
-                    <li><a href="">Trivia</a></li>
-                    <li><a href="">Translations</a></li>
+                    <li><a href="">Advice</a></li>
+                    <li><a href="">Tronald Dump</a></li>
                     <li><a href="">About Site</a></li>
                 </ul>
                 <ul className="sidenav" id="mobile-menu">
-                    <li><a href="">Jokes</a></li>
-                    <li><a href="">Trivia</a></li>
-                    <li><a href="">Translations</a></li>
+                    <li><a href="">Advice</a></li>
+                    <li><a href="">Tronald Dump</a></li>
                     <li><a href="">About Site</a></li>
                 </ul>
             </div>
