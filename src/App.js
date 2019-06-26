@@ -1,9 +1,12 @@
 import React, { Component} from 'react';
+import NavBar from './components/Navbar';
 
 class App extends Component {
   render() {
     return(
-      <h1>API Shit Here...</h1>
+      <div>
+        <NavBar />
+      </div>
     )
   }
 }
