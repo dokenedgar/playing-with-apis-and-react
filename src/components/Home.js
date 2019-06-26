@@ -19,7 +19,7 @@ class Home extends Component {
                 <div className="box center">
                     <h2 className="indigo-text text-darken-4">Have Some Fun</h2>
                     <p className="flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta velit, debitis illo ratione quis cumque in hic deserunt! Optio, cupiditate! Itaque magnam debitis aut explicabo. Consequuntur excepturi consequatur vel molestiae!</p>
-                    <h4 className="gap indigo-text text-darken-4">Advice of the Day</h4>
+                    <h4 className="gap indigo-text text-darken-4">Random Advice</h4>
                     <p className="flow-text">{this.state.advice}</p>
                 </div>
             </div>
