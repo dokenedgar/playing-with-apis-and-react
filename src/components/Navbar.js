@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, NavLink } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -6,19 +7,21 @@ class Navbar extends Component {
       <header>
         <nav className="nav-wrapper indigo darken-4">
             <div className="container">
-                <a href="" className="brand-logo">Fun With APIs</a>
-                <a href="" className="sidenav-trigger" data-target="mobile-menu">
+                <NavLink to="" className="brand-logo">Fun With APIs</NavLink>
+                <NavLink to="" className="sidenav-trigger" data-target="mobile-menu">
                     <i className="material-icons">menu</i>
-                </a>
+                </NavLink>
                 <ul className="right hide-on-med-and-down">
-                    <li><a href="">Advice</a></li>
-                    <li><a href="">Tronald Dump</a></li>
-                    <li><a href="">About Site</a></li>
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/advice">Advice</NavLink></li>
+                    <li><NavLink to="">Tronald Dump</NavLink></li>
+                    <li><NavLink to="">About Site</NavLink></li>
                 </ul>
                 <ul className="sidenav" id="mobile-menu">
-                    <li><a href="">Advice</a></li>
-                    <li><a href="">Tronald Dump</a></li>
-                    <li><a href="">About Site</a></li>
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/advice">Advice</NavLink></li>
+                    <li><NavLink to="">Tronald Dump</NavLink></li>
+                    <li><NavLink to="">About Site</NavLink></li>
                 </ul>
             </div>
         </nav>
