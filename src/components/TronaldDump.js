@@ -33,8 +33,8 @@ class TronaldDump extends Component {
         return (
             <div className="container">
                 <h3 className=" center indigo-text text-darken-3">Donald Trump...</h3>
-                <p className="flow-text">Love him or hate him, but can't ignore him. Anyways, click on any of the links below and see what Mr. President thinks, or said about the person or topic...
-                    Don't read this while eating, you might choke with laughter :)
+                <p className="flow-text">Disclaimer: Don't have anything against 'him', this is purely for educational purposes.<br/>Love him or hate him, but can't ignore him. Anyways, click on any of the links below and see what Mr. President thinks, or said about the person or topic...
+                    Try not to choke with laughter :)
                 </p>
                 <p className="flow-text">Here's a teaser:</p>
                 <div className="card">

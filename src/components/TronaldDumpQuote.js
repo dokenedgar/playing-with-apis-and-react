@@ -15,7 +15,10 @@ class TronaldDumpQuote extends Component {
         fetch('https://cors-anywhere.herokuapp.com/https://api.tronalddump.io/search/quote?query='+this.state.tag)
         .then(res => res.json())
         .then(json => {
-            console.log(json)
+            console.log(json.total)
+            if (json.total > 0) {
+                
+            
             this.setState({
                 receivedQuotes: json._embedded.quotes,
                 previous: json._links.prev.href,
@@ -28,6 +31,10 @@ class TronaldDumpQuote extends Component {
                     next: json._links.next.href
                 })
             }
+        }
+        else{
+            alert('0 quotes on this subject currently')
+        }
         }) 
         .catch((e)=> console.log(e))
     }
